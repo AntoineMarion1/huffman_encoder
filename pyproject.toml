@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "extension"
+version = "0.1.0"
+authors = [{ name = "Antoine MARION", email = "antoine.marion1911@gmail.com" }]
+description = "Create my own file extension"
+readme = "README.md"
+requires-python = ">=3.9, <3.12"
+license = { file = "LICENSE" }
+dependencies = ["math", "sys"]
